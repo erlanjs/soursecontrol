@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?cs=srgb&dl=pexels-johannes-plenio-1118873.jpg&fm=jpg")
+    no-repeat center/cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather {
+  width: 400px;
+  /* height: 300px; */
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.506);
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.form {
+  display: flex;
+  gap: 5px;
+}
+
+.form input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 10px;
+  border: none;
+}
+
+.form button {
+  width: 100px;
+  padding: 6px;
+  border-radius: 10px;
+  background: rgb(255, 115, 0);
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+
+  margin-top: 20px;
+}
